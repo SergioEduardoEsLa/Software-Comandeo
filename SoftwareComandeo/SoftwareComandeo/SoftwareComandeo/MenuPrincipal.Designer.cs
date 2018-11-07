@@ -28,24 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCerrarSesionMenu = new System.Windows.Forms.Button();
             this.btnCorteDeCaja = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnComanda = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button2
+            // btnCerrarSesionMenu
             // 
-            this.button2.Location = new System.Drawing.Point(161, 337);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(192, 68);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "CERRAR SESION";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCerrarSesionMenu.Location = new System.Drawing.Point(161, 337);
+            this.btnCerrarSesionMenu.Name = "btnCerrarSesionMenu";
+            this.btnCerrarSesionMenu.Size = new System.Drawing.Size(192, 68);
+            this.btnCerrarSesionMenu.TabIndex = 2;
+            this.btnCerrarSesionMenu.Text = "CERRAR SESION";
+            this.btnCerrarSesionMenu.UseVisualStyleBackColor = true;
             // 
             // btnCorteDeCaja
             // 
             this.btnCorteDeCaja.AutoSize = true;
-            this.btnCorteDeCaja.Image = global::SoftwareComandeo.Properties.Resources.descarga;
             this.btnCorteDeCaja.ImageKey = "(ninguno)";
             this.btnCorteDeCaja.Location = new System.Drawing.Point(274, 40);
             this.btnCorteDeCaja.Name = "btnCorteDeCaja";
@@ -55,19 +54,18 @@
             this.btnCorteDeCaja.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCorteDeCaja.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnComanda
             // 
-            this.button1.AutoSize = true;
-            this.button1.Image = global::SoftwareComandeo.Properties.Resources.descarga;
-            this.button1.ImageKey = "(ninguno)";
-            this.button1.Location = new System.Drawing.Point(12, 40);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(231, 276);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "COMANDA";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnComanda.AutoSize = true;
+            this.btnComanda.ImageKey = "(ninguno)";
+            this.btnComanda.Location = new System.Drawing.Point(12, 40);
+            this.btnComanda.Name = "btnComanda";
+            this.btnComanda.Size = new System.Drawing.Size(231, 276);
+            this.btnComanda.TabIndex = 0;
+            this.btnComanda.Text = "COMANDA";
+            this.btnComanda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnComanda.UseVisualStyleBackColor = true;
+            this.btnComanda.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmMenuPrincipal
             // 
@@ -75,9 +73,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(517, 421);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnCerrarSesionMenu);
             this.Controls.Add(this.btnCorteDeCaja);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnComanda);
             this.Name = "frmMenuPrincipal";
             this.Text = "MENU PRINCIPAL";
             this.ResumeLayout(false);
@@ -87,8 +85,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnComanda;
         private System.Windows.Forms.Button btnCorteDeCaja;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCerrarSesionMenu;
     }
 }
