@@ -28,5 +28,10 @@ namespace SoftwareComandeo
             frmMenuPrincipal.ShowDialog();
             Close();
         }
+
+        private void frmListadoComandas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

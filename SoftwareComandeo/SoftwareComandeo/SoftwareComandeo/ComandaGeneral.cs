@@ -16,5 +16,10 @@ namespace SoftwareComandeo
         {
             InitializeComponent();
         }
+
+        private void ComandaGeneral_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
