@@ -55,6 +55,7 @@
     </Compile>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="CORTES.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +63,9 @@
       <DependentUpon>CORTES.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
+=======
+    <Compile Include="IniciarSesion.cs">
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
 =======
     <Compile Include="IniciarSesion.cs">
 >>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
@@ -104,11 +108,16 @@
     </EmbeddedResource>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="CORTES.resx">
       <DependentUpon>CORTES.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="IniciarSesion.resx">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
 =======
     <EmbeddedResource Include="IniciarSesion.resx">
       <DependentUpon>IniciarSesion.cs</DependentUpon>

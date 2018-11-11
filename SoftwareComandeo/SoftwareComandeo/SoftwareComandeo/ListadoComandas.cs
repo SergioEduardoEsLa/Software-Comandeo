@@ -140,5 +140,10 @@ namespace SoftwareComandeo
         {
 
         }
+
+        private void frmListadoComandas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

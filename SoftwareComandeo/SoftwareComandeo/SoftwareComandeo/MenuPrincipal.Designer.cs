@@ -63,9 +63,15 @@
             this.btnCerrarSesionMenu.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnCerrarSesionMenu.Click += new System.EventHandler(this.btnCerrarSesionMenu_Click);
 =======
 <<<<<<< HEAD
+>>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
+=======
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
 =======
 >>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
