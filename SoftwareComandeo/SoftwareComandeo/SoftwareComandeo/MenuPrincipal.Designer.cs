@@ -38,6 +38,7 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(215, 415);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
@@ -51,12 +52,19 @@
             this.btnCerrarSesionMenu.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesionMenu.Location = new System.Drawing.Point(195, 341);
 >>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
+=======
+            this.btnCerrarSesionMenu.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesionMenu.Location = new System.Drawing.Point(195, 341);
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             this.btnCerrarSesionMenu.Name = "btnCerrarSesionMenu";
             this.btnCerrarSesionMenu.Size = new System.Drawing.Size(192, 68);
             this.btnCerrarSesionMenu.TabIndex = 2;
             this.btnCerrarSesionMenu.Text = "CERRAR SESION";
             this.btnCerrarSesionMenu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             // 
             // btnCorteDeCaja
             // 
@@ -67,10 +75,16 @@
             this.btnCorteDeCaja.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCorteDeCaja.ImageKey = "(ninguno)";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnCorteDeCaja.Location = new System.Drawing.Point(365, 49);
             this.btnCorteDeCaja.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCorteDeCaja.Name = "btnCorteDeCaja";
             this.btnCorteDeCaja.Size = new System.Drawing.Size(308, 340);
+=======
+            this.btnCorteDeCaja.Location = new System.Drawing.Point(274, 15);
+            this.btnCorteDeCaja.Name = "btnCorteDeCaja";
+            this.btnCorteDeCaja.Size = new System.Drawing.Size(262, 320);
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
 =======
             this.btnCorteDeCaja.Location = new System.Drawing.Point(274, 15);
             this.btnCorteDeCaja.Name = "btnCorteDeCaja";
@@ -91,6 +105,7 @@
             this.btnComanda.ImageKey = "(ninguno)";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnComanda.Location = new System.Drawing.Point(16, 49);
             this.btnComanda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnComanda.Name = "btnComanda";
@@ -100,6 +115,11 @@
             this.btnComanda.Name = "btnComanda";
             this.btnComanda.Size = new System.Drawing.Size(231, 276);
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+            this.btnComanda.Location = new System.Drawing.Point(12, 15);
+            this.btnComanda.Name = "btnComanda";
+            this.btnComanda.Size = new System.Drawing.Size(262, 320);
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
 =======
             this.btnComanda.Location = new System.Drawing.Point(12, 15);
             this.btnComanda.Name = "btnComanda";
@@ -119,6 +139,7 @@
             this.AutoSize = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(689, 518);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnCorteDeCaja);
@@ -130,6 +151,14 @@
             this.Controls.Add(this.btnCorteDeCaja);
             this.Controls.Add(this.btnComanda);
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.ClientSize = new System.Drawing.Size(548, 412);
+            this.Controls.Add(this.btnCerrarSesionMenu);
+            this.Controls.Add(this.btnCorteDeCaja);
+            this.Controls.Add(this.btnComanda);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
 =======
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(548, 412);

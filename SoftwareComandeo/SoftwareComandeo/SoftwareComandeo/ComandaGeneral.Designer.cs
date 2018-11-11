@@ -125,6 +125,7 @@
             this.panel1.TabIndex = 3;
             // 
             // btnEditarBox
+<<<<<<< HEAD
             // 
 <<<<<<< HEAD
             this.btnEditarBox.Location = new System.Drawing.Point(484, 82);
@@ -211,9 +212,48 @@
             this.txtColaborador.Name = "txtColaborador";
             this.txtColaborador.Size = new System.Drawing.Size(304, 22);
             this.txtColaborador.TabIndex = 6;
+=======
             // 
-            // txtServicio
+            this.btnEditarBox.Location = new System.Drawing.Point(363, 67);
+            this.btnEditarBox.Name = "btnEditarBox";
+            this.btnEditarBox.Size = new System.Drawing.Size(89, 38);
+            this.btnEditarBox.TabIndex = 11;
+            this.btnEditarBox.Text = "EDITAR";
+            this.btnEditarBox.UseVisualStyleBackColor = true;
             // 
+            // btnCantidadMas
+            // 
+            this.btnCantidadMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCantidadMas.Location = new System.Drawing.Point(200, 120);
+            this.btnCantidadMas.Name = "btnCantidadMas";
+            this.btnCantidadMas.Size = new System.Drawing.Size(51, 23);
+            this.btnCantidadMas.TabIndex = 8;
+            this.btnCantidadMas.Text = "+";
+            this.btnCantidadMas.UseVisualStyleBackColor = true;
+            // 
+            // btnAgregarServicio
+            // 
+            this.btnAgregarServicio.Location = new System.Drawing.Point(363, 14);
+            this.btnAgregarServicio.Name = "btnAgregarServicio";
+            this.btnAgregarServicio.Size = new System.Drawing.Size(89, 38);
+            this.btnAgregarServicio.TabIndex = 10;
+            this.btnAgregarServicio.Text = "AGREGAR";
+            this.btnAgregarServicio.UseVisualStyleBackColor = true;
+            // 
+            // btnCantidadMenos
+            // 
+            this.btnCantidadMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCantidadMenos.Location = new System.Drawing.Point(289, 119);
+            this.btnCantidadMenos.Name = "btnCantidadMenos";
+            this.btnCantidadMenos.Size = new System.Drawing.Size(51, 23);
+            this.btnCantidadMenos.TabIndex = 9;
+            this.btnCantidadMenos.Text = "-";
+            this.btnCantidadMenos.UseVisualStyleBackColor = true;
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
+            // 
+            // txtCantidad
+            // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.txtServicio.Location = new System.Drawing.Point(148, 59);
             this.txtServicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -301,6 +341,67 @@
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(55, 13);
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+            this.txtCantidad.Location = new System.Drawing.Point(111, 122);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(51, 20);
+            this.txtCantidad.TabIndex = 7;
+            // 
+            // txtColaborador
+            // 
+            this.txtColaborador.Location = new System.Drawing.Point(111, 85);
+            this.txtColaborador.Name = "txtColaborador";
+            this.txtColaborador.Size = new System.Drawing.Size(229, 20);
+            this.txtColaborador.TabIndex = 6;
+            // 
+            // txtServicio
+            // 
+            this.txtServicio.Location = new System.Drawing.Point(111, 48);
+            this.txtServicio.Name = "txtServicio";
+            this.txtServicio.Size = new System.Drawing.Size(229, 20);
+            this.txtServicio.TabIndex = 5;
+            // 
+            // txtCliente
+            // 
+            this.txtCliente.Location = new System.Drawing.Point(111, 12);
+            this.txtCliente.Name = "txtCliente";
+            this.txtCliente.Size = new System.Drawing.Size(229, 20);
+            this.txtCliente.TabIndex = 4;
+            // 
+            // lblCantidad
+            // 
+            this.lblCantidad.AutoSize = true;
+            this.lblCantidad.Location = new System.Drawing.Point(13, 125);
+            this.lblCantidad.Name = "lblCantidad";
+            this.lblCantidad.Size = new System.Drawing.Size(68, 13);
+            this.lblCantidad.TabIndex = 3;
+            this.lblCantidad.Text = "CANITIDAD:";
+            // 
+            // lblColaborador
+            // 
+            this.lblColaborador.AutoSize = true;
+            this.lblColaborador.Location = new System.Drawing.Point(13, 88);
+            this.lblColaborador.Name = "lblColaborador";
+            this.lblColaborador.Size = new System.Drawing.Size(92, 13);
+            this.lblColaborador.TabIndex = 2;
+            this.lblColaborador.Text = "COLABORADOR:";
+            // 
+            // lblServicio
+            // 
+            this.lblServicio.AutoSize = true;
+            this.lblServicio.Location = new System.Drawing.Point(13, 51);
+            this.lblServicio.Name = "lblServicio";
+            this.lblServicio.Size = new System.Drawing.Size(60, 13);
+            this.lblServicio.TabIndex = 1;
+            this.lblServicio.Text = "SERVICIO:";
+            // 
+            // lblCliente
+            // 
+            this.lblCliente.AutoSize = true;
+            this.lblCliente.Location = new System.Drawing.Point(13, 14);
+            this.lblCliente.Name = "lblCliente";
+            this.lblCliente.Size = new System.Drawing.Size(55, 13);
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             this.lblCliente.TabIndex = 0;
             this.lblCliente.Text = "CLIENTE:";
             // 
@@ -354,6 +455,7 @@
             this.btnClienteBuscar.UseVisualStyleBackColor = true;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.Controls.Add(this.lblClienteBuscar);
@@ -365,6 +467,8 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(432, 41);
             this.flowLayoutPanel2.TabIndex = 10;
 =======
+=======
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             // pnlCliente
             // 
             this.pnlCliente.Controls.Add(this.lblClienteBuscar);
@@ -514,7 +618,10 @@
             this.btnRegresarComanda.TabIndex = 16;
             this.btnRegresarComanda.Text = "REGRESAR";
             this.btnRegresarComanda.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             // 
             // ComandaGeneral
             // 
@@ -523,9 +630,12 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1071, 609);
             this.Controls.Add(this.flowLayoutPanel2);
 =======
+=======
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             this.ClientSize = new System.Drawing.Size(803, 495);
             this.Controls.Add(this.btnCobrar);
             this.Controls.Add(this.btnBorrarNota);
@@ -534,7 +644,10 @@
             this.Controls.Add(this.btnRegresarComanda);
             this.Controls.Add(this.pnlServicios);
             this.Controls.Add(this.pnlCliente);
+<<<<<<< HEAD
 >>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
+=======
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
