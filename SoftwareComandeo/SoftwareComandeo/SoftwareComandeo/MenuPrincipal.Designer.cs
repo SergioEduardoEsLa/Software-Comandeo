@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnCerrarSesionMenu.Click += new System.EventHandler(this.btnCerrarSesionMenu_Click);
 =======
 <<<<<<< HEAD
@@ -81,6 +82,8 @@
 =======
 >>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
 >>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
+=======
+>>>>>>> parent of aedf9f0... Menus de servicios agregados
             // 
             // btnCorteDeCaja
             // 

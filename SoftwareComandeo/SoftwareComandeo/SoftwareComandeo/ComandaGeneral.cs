@@ -46,6 +46,7 @@ namespace SoftwareComandeo
 <<<<<<< HEAD
 <<<<<<< HEAD
         }
+<<<<<<< HEAD
 
         private void btnCorte_Click(object sender, EventArgs e)
         {
@@ -73,5 +74,7 @@ namespace SoftwareComandeo
 =======
 >>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
         }
+=======
+>>>>>>> parent of aedf9f0... Menus de servicios agregados
     }
 }

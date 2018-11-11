@@ -26,6 +26,7 @@ namespace SoftwareComandeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void btnCerrarSesionMenu_Click(object sender, EventArgs e)
         {
             frmMenuPrincipal.ActiveForm.Close();
@@ -54,5 +55,8 @@ namespace SoftwareComandeo
 >>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
 =======
 >>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
+=======
+        
+>>>>>>> parent of aedf9f0... Menus de servicios agregados
     }
 }
