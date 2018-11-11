@@ -75,16 +75,11 @@
             // 
             // btnCliente
             // 
-<<<<<<< HEAD
-            this.btnCliente.Location = new System.Drawing.Point(4, 4);
-            this.btnCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.btnCliente.BackColor = System.Drawing.Color.Silver;
             this.btnCliente.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCliente.Location = new System.Drawing.Point(3, 3);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(137, 28);
+            this.btnCliente.Size = new System.Drawing.Size(103, 23);
             this.btnCliente.TabIndex = 0;
             this.btnCliente.Text = "CLIENTE";
             this.btnCliente.UseVisualStyleBackColor = false;
@@ -92,16 +87,11 @@
             // 
             // btnServicio
             // 
-<<<<<<< HEAD
-            this.btnServicio.Location = new System.Drawing.Point(149, 4);
-            this.btnServicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.btnServicio.BackColor = System.Drawing.Color.Silver;
             this.btnServicio.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServicio.Location = new System.Drawing.Point(112, 3);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.btnServicio.Name = "btnServicio";
-            this.btnServicio.Size = new System.Drawing.Size(137, 28);
+            this.btnServicio.Size = new System.Drawing.Size(103, 23);
             this.btnServicio.TabIndex = 1;
             this.btnServicio.Text = "SERVICIO";
             this.btnServicio.UseVisualStyleBackColor = false;
@@ -109,16 +99,11 @@
             // 
             // btnColaborador
             // 
-<<<<<<< HEAD
-            this.btnColaborador.Location = new System.Drawing.Point(294, 4);
-            this.btnColaborador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.btnColaborador.BackColor = System.Drawing.Color.Silver;
             this.btnColaborador.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnColaborador.Location = new System.Drawing.Point(221, 3);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.btnColaborador.Name = "btnColaborador";
-            this.btnColaborador.Size = new System.Drawing.Size(137, 28);
+            this.btnColaborador.Size = new System.Drawing.Size(103, 23);
             this.btnColaborador.TabIndex = 2;
             this.btnColaborador.Text = "COLABORADOR";
             this.btnColaborador.UseVisualStyleBackColor = false;
@@ -140,106 +125,13 @@
             this.panel1.Controls.Add(this.lblColaborador);
             this.panel1.Controls.Add(this.lblServicio);
             this.panel1.Controls.Add(this.lblCliente);
-<<<<<<< HEAD
-            this.panel1.Location = new System.Drawing.Point(452, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.panel1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(339, 3);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(607, 180);
+            this.panel1.Size = new System.Drawing.Size(455, 146);
             this.panel1.TabIndex = 3;
             // 
             // btnEditarBox
-<<<<<<< HEAD
-            // 
-<<<<<<< HEAD
-            this.btnEditarBox.Location = new System.Drawing.Point(484, 82);
-            this.btnEditarBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnEditarBox.Name = "btnEditarBox";
-            this.btnEditarBox.Size = new System.Drawing.Size(119, 47);
-=======
-            this.btnEditarBox.Location = new System.Drawing.Point(363, 67);
-            this.btnEditarBox.Name = "btnEditarBox";
-            this.btnEditarBox.Size = new System.Drawing.Size(89, 38);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.btnEditarBox.TabIndex = 11;
-            this.btnEditarBox.Text = "EDITAR";
-            this.btnEditarBox.UseVisualStyleBackColor = true;
-            // 
-            // btnCantidadMas
-            // 
-            this.btnCantidadMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.btnCantidadMas.Location = new System.Drawing.Point(267, 148);
-            this.btnCantidadMas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCantidadMas.Name = "btnCantidadMas";
-            this.btnCantidadMas.Size = new System.Drawing.Size(68, 28);
-=======
-            this.btnCantidadMas.Location = new System.Drawing.Point(200, 120);
-            this.btnCantidadMas.Name = "btnCantidadMas";
-            this.btnCantidadMas.Size = new System.Drawing.Size(51, 23);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.btnCantidadMas.TabIndex = 8;
-            this.btnCantidadMas.Text = "+";
-            this.btnCantidadMas.UseVisualStyleBackColor = true;
-            // 
-            // btnAgregarServicio
-            // 
-<<<<<<< HEAD
-            this.btnAgregarServicio.Location = new System.Drawing.Point(484, 17);
-            this.btnAgregarServicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnAgregarServicio.Name = "btnAgregarServicio";
-            this.btnAgregarServicio.Size = new System.Drawing.Size(119, 47);
-=======
-            this.btnAgregarServicio.Location = new System.Drawing.Point(363, 14);
-            this.btnAgregarServicio.Name = "btnAgregarServicio";
-            this.btnAgregarServicio.Size = new System.Drawing.Size(89, 38);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.btnAgregarServicio.TabIndex = 10;
-            this.btnAgregarServicio.Text = "AGREGAR";
-            this.btnAgregarServicio.UseVisualStyleBackColor = true;
-            // 
-            // btnCantidadMenos
-            // 
-            this.btnCantidadMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.btnCantidadMenos.Location = new System.Drawing.Point(385, 146);
-            this.btnCantidadMenos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCantidadMenos.Name = "btnCantidadMenos";
-            this.btnCantidadMenos.Size = new System.Drawing.Size(68, 28);
-=======
-            this.btnCantidadMenos.Location = new System.Drawing.Point(289, 119);
-            this.btnCantidadMenos.Name = "btnCantidadMenos";
-            this.btnCantidadMenos.Size = new System.Drawing.Size(51, 23);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.btnCantidadMenos.TabIndex = 9;
-            this.btnCantidadMenos.Text = "-";
-            this.btnCantidadMenos.UseVisualStyleBackColor = true;
-            // 
-            // txtCantidad
-            // 
-<<<<<<< HEAD
-            this.txtCantidad.Location = new System.Drawing.Point(148, 150);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(67, 22);
-=======
-            this.txtCantidad.Location = new System.Drawing.Point(111, 122);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(51, 20);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.txtCantidad.TabIndex = 7;
-            // 
-            // txtColaborador
-            // 
-            this.txtColaborador.Location = new System.Drawing.Point(148, 105);
-            this.txtColaborador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtColaborador.Name = "txtColaborador";
-            this.txtColaborador.Size = new System.Drawing.Size(304, 22);
-            this.txtColaborador.TabIndex = 6;
-=======
             // 
             this.btnEditarBox.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarBox.Location = new System.Drawing.Point(363, 67);
@@ -278,103 +170,10 @@
             this.btnCantidadMenos.TabIndex = 9;
             this.btnCantidadMenos.Text = "-";
             this.btnCantidadMenos.UseVisualStyleBackColor = true;
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             // 
             // txtCantidad
             // 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.txtServicio.Location = new System.Drawing.Point(148, 59);
-            this.txtServicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtServicio.Name = "txtServicio";
-            this.txtServicio.Size = new System.Drawing.Size(304, 22);
-=======
-            this.txtServicio.Location = new System.Drawing.Point(111, 48);
-            this.txtServicio.Name = "txtServicio";
-            this.txtServicio.Size = new System.Drawing.Size(229, 20);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.txtServicio.TabIndex = 5;
-            // 
-            // txtCliente
-            // 
-<<<<<<< HEAD
-            this.txtCliente.Location = new System.Drawing.Point(148, 15);
-            this.txtCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(304, 22);
-=======
-            this.txtCliente.Location = new System.Drawing.Point(111, 12);
-            this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(229, 20);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.txtCliente.TabIndex = 4;
-            // 
-            // lblCantidad
-            // 
-            this.lblCantidad.AutoSize = true;
-<<<<<<< HEAD
-            this.lblCantidad.Location = new System.Drawing.Point(17, 154);
-            this.lblCantidad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(84, 17);
-=======
-            this.lblCantidad.Location = new System.Drawing.Point(13, 125);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(68, 13);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.lblCantidad.TabIndex = 3;
-            this.lblCantidad.Text = "CANITIDAD:";
-            // 
-            // lblColaborador
-            // 
-            this.lblColaborador.AutoSize = true;
-<<<<<<< HEAD
-            this.lblColaborador.Location = new System.Drawing.Point(17, 108);
-            this.lblColaborador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblColaborador.Name = "lblColaborador";
-            this.lblColaborador.Size = new System.Drawing.Size(119, 17);
-=======
-            this.lblColaborador.Location = new System.Drawing.Point(13, 88);
-            this.lblColaborador.Name = "lblColaborador";
-            this.lblColaborador.Size = new System.Drawing.Size(92, 13);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.lblColaborador.TabIndex = 2;
-            this.lblColaborador.Text = "COLABORADOR:";
-            // 
-            // lblServicio
-            // 
-            this.lblServicio.AutoSize = true;
-<<<<<<< HEAD
-            this.lblServicio.Location = new System.Drawing.Point(17, 63);
-            this.lblServicio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblServicio.Name = "lblServicio";
-            this.lblServicio.Size = new System.Drawing.Size(75, 17);
-=======
-            this.lblServicio.Location = new System.Drawing.Point(13, 51);
-            this.lblServicio.Name = "lblServicio";
-            this.lblServicio.Size = new System.Drawing.Size(60, 13);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-            this.lblServicio.TabIndex = 1;
-            this.lblServicio.Text = "SERVICIO:";
-            // 
-            // lblCliente
-            // 
-            this.lblCliente.AutoSize = true;
-<<<<<<< HEAD
-            this.lblCliente.Location = new System.Drawing.Point(17, 17);
-            this.lblCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(69, 17);
-=======
-            this.lblCliente.Location = new System.Drawing.Point(13, 14);
-            this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(55, 13);
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-=======
-=======
             this.txtCantidad.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.txtCantidad.Location = new System.Drawing.Point(111, 122);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(51, 20);
@@ -440,12 +239,7 @@
             this.lblCliente.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCliente.Location = new System.Drawing.Point(13, 14);
             this.lblCliente.Name = "lblCliente";
-<<<<<<< HEAD
-            this.lblCliente.Size = new System.Drawing.Size(55, 13);
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
-=======
             this.lblCliente.Size = new System.Drawing.Size(63, 14);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.lblCliente.TabIndex = 0;
             this.lblCliente.Text = "CLIENTE:";
             // 
@@ -456,90 +250,48 @@
             this.flowLayoutPanel1.Controls.Add(this.btnCliente);
             this.flowLayoutPanel1.Controls.Add(this.btnServicio);
             this.flowLayoutPanel1.Controls.Add(this.btnColaborador);
-<<<<<<< HEAD
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 15);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.flowLayoutPanel1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 12);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(435, 36);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(327, 29);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
             // panel2
             // 
-<<<<<<< HEAD
-            this.panel2.Location = new System.Drawing.Point(452, 186);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.panel2.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(339, 151);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(607, 316);
+            this.panel2.Size = new System.Drawing.Size(455, 257);
             this.panel2.TabIndex = 6;
             // 
             // lblClienteBuscar
             // 
             this.lblClienteBuscar.AutoSize = true;
-<<<<<<< HEAD
-            this.lblClienteBuscar.Location = new System.Drawing.Point(4, 0);
-            this.lblClienteBuscar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblClienteBuscar.Name = "lblClienteBuscar";
-            this.lblClienteBuscar.Size = new System.Drawing.Size(69, 17);
-=======
             this.lblClienteBuscar.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClienteBuscar.Location = new System.Drawing.Point(3, 0);
             this.lblClienteBuscar.Name = "lblClienteBuscar";
             this.lblClienteBuscar.Size = new System.Drawing.Size(63, 14);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.lblClienteBuscar.TabIndex = 7;
             this.lblClienteBuscar.Text = "CLIENTE:";
             // 
             // txtClienteBuscar
             // 
-<<<<<<< HEAD
-            this.txtClienteBuscar.Location = new System.Drawing.Point(81, 4);
-            this.txtClienteBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.txtClienteBuscar.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClienteBuscar.Location = new System.Drawing.Point(72, 3);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.txtClienteBuscar.Name = "txtClienteBuscar";
-            this.txtClienteBuscar.Size = new System.Drawing.Size(271, 22);
+            this.txtClienteBuscar.Size = new System.Drawing.Size(204, 20);
             this.txtClienteBuscar.TabIndex = 8;
             // 
             // btnClienteBuscar
             // 
-<<<<<<< HEAD
-            this.btnClienteBuscar.Location = new System.Drawing.Point(360, 4);
-            this.btnClienteBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.btnClienteBuscar.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClienteBuscar.Location = new System.Drawing.Point(282, 3);
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.btnClienteBuscar.Name = "btnClienteBuscar";
-            this.btnClienteBuscar.Size = new System.Drawing.Size(56, 28);
+            this.btnClienteBuscar.Size = new System.Drawing.Size(42, 23);
             this.btnClienteBuscar.TabIndex = 9;
             this.btnClienteBuscar.Text = "BUSCAR";
             this.btnClienteBuscar.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.lblClienteBuscar);
-            this.flowLayoutPanel2.Controls.Add(this.txtClienteBuscar);
-            this.flowLayoutPanel2.Controls.Add(this.btnClienteBuscar);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 63);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(432, 41);
-            this.flowLayoutPanel2.TabIndex = 10;
-=======
-=======
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             // pnlCliente
             // 
             this.pnlCliente.Controls.Add(this.lblClienteBuscar);
@@ -573,6 +325,7 @@
             this.btnCorte.TabIndex = 0;
             this.btnCorte.Text = "CORTE";
             this.btnCorte.UseVisualStyleBackColor = true;
+            this.btnCorte.Click += new System.EventHandler(this.btnCorte_Click);
             // 
             // btnPeinado
             // 
@@ -583,6 +336,7 @@
             this.btnPeinado.TabIndex = 3;
             this.btnPeinado.Text = "PEINADOS";
             this.btnPeinado.UseVisualStyleBackColor = true;
+            this.btnPeinado.Click += new System.EventHandler(this.btnPeinado_Click);
             // 
             // btnMaquillaje
             // 
@@ -593,6 +347,7 @@
             this.btnMaquillaje.TabIndex = 4;
             this.btnMaquillaje.Text = "MAQUILLAJE";
             this.btnMaquillaje.UseVisualStyleBackColor = true;
+            this.btnMaquillaje.Click += new System.EventHandler(this.btnMaquillaje_Click);
             // 
             // pnlColaborador
             // 
@@ -701,6 +456,7 @@
             // 
             // btnRegresarComanda
             // 
+            this.btnRegresarComanda.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnRegresarComanda.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresarComanda.Location = new System.Drawing.Point(688, 427);
             this.btnRegresarComanda.Name = "btnRegresarComanda";
@@ -708,62 +464,16 @@
             this.btnRegresarComanda.TabIndex = 16;
             this.btnRegresarComanda.Text = "REGRESAR";
             this.btnRegresarComanda.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             this.btnRegresarComanda.Click += new System.EventHandler(this.btnRegresarComanda_Click);
-=======
-<<<<<<< HEAD
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-=======
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
->>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
-=======
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-=======
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
->>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
-=======
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-=======
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
->>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
-=======
->>>>>>> parent of aedf9f0... Menus de servicios agregados
             // 
             // ComandaGeneral
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1071, 609);
-            this.Controls.Add(this.flowLayoutPanel2);
-=======
-=======
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
-=======
             this.BackColor = System.Drawing.Color.CadetBlue;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             this.CancelButton = this.btnRegresarComanda;
-=======
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
->>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
-=======
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
->>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
-=======
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
->>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
-=======
->>>>>>> parent of aedf9f0... Menus de servicios agregados
             this.ClientSize = new System.Drawing.Size(803, 495);
             this.Controls.Add(this.btnCobrar);
             this.Controls.Add(this.btnBorrarNota);
@@ -772,21 +482,12 @@
             this.Controls.Add(this.btnRegresarComanda);
             this.Controls.Add(this.pnlServicios);
             this.Controls.Add(this.pnlCliente);
-<<<<<<< HEAD
->>>>>>> 8bf4ca54cf521c59008f53ae4742ebce03cd2f35
-=======
->>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
-<<<<<<< HEAD
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
->>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
             this.Name = "ComandaGeneral";
             this.Text = "ComandaGeneral";
-            this.Load += new System.EventHandler(this.ComandaGeneral_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
