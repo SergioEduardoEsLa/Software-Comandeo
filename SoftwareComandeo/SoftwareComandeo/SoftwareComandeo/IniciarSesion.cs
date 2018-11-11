@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SoftwareComandeo
 {
-    public partial class Form1 : Form
+    public partial class IniciarSesion : Form
     {
-        public Form1()
+        public IniciarSesion()
         {
             InitializeComponent();
         }
@@ -27,6 +27,16 @@ namespace SoftwareComandeo
             txtUsuario.Text = "";
             txtPassword.Text = "";
             Close();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -53,6 +53,8 @@
     <Compile Include="ComandaGeneral.Designer.cs">
       <DependentUpon>ComandaGeneral.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="CORTES.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,10 +62,16 @@
       <DependentUpon>CORTES.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
+=======
+    <Compile Include="IniciarSesion.cs">
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
+=======
+    <Compile Include="IniciarSesion.cs">
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="IniciarSesion.Designer.cs">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="ListadoComandas.cs">
       <SubType>Form</SubType>
@@ -94,11 +102,21 @@
     <EmbeddedResource Include="ComandaGeneral.resx">
       <DependentUpon>ComandaGeneral.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="CORTES.resx">
       <DependentUpon>CORTES.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="IniciarSesion.resx">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
+=======
+    <EmbeddedResource Include="IniciarSesion.resx">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
     </EmbeddedResource>
     <EmbeddedResource Include="ListadoComandas.resx">
       <DependentUpon>ListadoComandas.cs</DependentUpon>
