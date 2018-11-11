@@ -17,6 +17,11 @@ namespace SoftwareComandeo
             InitializeComponent();
         }
 
+<<<<<<< HEAD
+        private void ComandaGeneral_Load(object sender, EventArgs e)
+        {
+
+=======
         private void btnCliente_Click(object sender, EventArgs e)
         {
             pnlCliente.Visible=true;
@@ -37,6 +42,9 @@ namespace SoftwareComandeo
             pnlCliente.Visible = false;
             pnlServicios.Visible = false;
             pnlColaborador.Visible = true;
+>>>>>>> 6946eb61e7c08bcb0395c59ea194358007fec77a
+<<<<<<< HEAD
+<<<<<<< HEAD
         }
 
         private void btnCorte_Click(object sender, EventArgs e)
@@ -60,6 +68,10 @@ namespace SoftwareComandeo
         private void btnRegresarComanda_Click(object sender, EventArgs e)
         {
             ComandaGeneral.ActiveForm.Close();
+=======
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
+=======
+>>>>>>> 1a94512f8e8afb0944e7ad0072c3c47efcc86002
         }
     }
 }

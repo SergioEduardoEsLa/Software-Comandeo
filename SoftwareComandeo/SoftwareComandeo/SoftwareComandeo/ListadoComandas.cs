@@ -130,5 +130,20 @@ namespace SoftwareComandeo
         {
             ComandaGeneral.ShowDialog();
         }
+
+        private void frmListadoComandas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmListadoComandas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmListadoComandas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
