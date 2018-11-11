@@ -16,5 +16,27 @@ namespace SoftwareComandeo
         {
             InitializeComponent();
         }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            pnlCliente.Visible=true;
+            pnlServicios.Visible = false;
+            pnlColaborador.Visible = false;
+            
+        }
+
+        private void btnServicio_Click(object sender, EventArgs e)
+        {
+            pnlCliente.Visible = false;
+            pnlColaborador.Visible = false;
+            pnlServicios.Visible = true;
+        }
+
+        private void btnColaborador_Click(object sender, EventArgs e)
+        {
+            pnlCliente.Visible = false;
+            pnlServicios.Visible = false;
+            pnlColaborador.Visible = true;
+        }
     }
 }

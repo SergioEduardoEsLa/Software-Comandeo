@@ -75,33 +75,39 @@
             // 
             // btnCliente
             // 
+            this.btnCliente.BackColor = System.Drawing.Color.Silver;
             this.btnCliente.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCliente.Location = new System.Drawing.Point(3, 3);
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Size = new System.Drawing.Size(103, 23);
             this.btnCliente.TabIndex = 0;
             this.btnCliente.Text = "CLIENTE";
-            this.btnCliente.UseVisualStyleBackColor = true;
+            this.btnCliente.UseVisualStyleBackColor = false;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // btnServicio
             // 
+            this.btnServicio.BackColor = System.Drawing.Color.Silver;
             this.btnServicio.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServicio.Location = new System.Drawing.Point(112, 3);
             this.btnServicio.Name = "btnServicio";
             this.btnServicio.Size = new System.Drawing.Size(103, 23);
             this.btnServicio.TabIndex = 1;
             this.btnServicio.Text = "SERVICIO";
-            this.btnServicio.UseVisualStyleBackColor = true;
+            this.btnServicio.UseVisualStyleBackColor = false;
+            this.btnServicio.Click += new System.EventHandler(this.btnServicio_Click);
             // 
             // btnColaborador
             // 
+            this.btnColaborador.BackColor = System.Drawing.Color.Silver;
             this.btnColaborador.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnColaborador.Location = new System.Drawing.Point(221, 3);
             this.btnColaborador.Name = "btnColaborador";
             this.btnColaborador.Size = new System.Drawing.Size(103, 23);
             this.btnColaborador.TabIndex = 2;
             this.btnColaborador.Text = "COLABORADOR";
-            this.btnColaborador.UseVisualStyleBackColor = true;
+            this.btnColaborador.UseVisualStyleBackColor = false;
+            this.btnColaborador.Click += new System.EventHandler(this.btnColaborador_Click);
             // 
             // panel1
             // 
@@ -296,6 +302,7 @@
             this.pnlCliente.Name = "pnlCliente";
             this.pnlCliente.Size = new System.Drawing.Size(327, 33);
             this.pnlCliente.TabIndex = 10;
+            this.pnlCliente.Visible = false;
             // 
             // pnlServicios
             // 
@@ -307,6 +314,7 @@
             this.pnlServicios.Name = "pnlServicios";
             this.pnlServicios.Size = new System.Drawing.Size(327, 124);
             this.pnlServicios.TabIndex = 11;
+            this.pnlServicios.Visible = false;
             // 
             // btnCorte
             // 
@@ -351,6 +359,7 @@
             this.pnlColaborador.Name = "pnlColaborador";
             this.pnlColaborador.Size = new System.Drawing.Size(327, 61);
             this.pnlColaborador.TabIndex = 12;
+            this.pnlColaborador.Visible = false;
             // 
             // btnColaborador1
             // 
