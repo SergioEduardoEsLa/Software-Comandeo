@@ -93,9 +93,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ComandaGeneral.resx">
       <DependentUpon>ComandaGeneral.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ComandaGeneral1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="CORTES.resx">
       <DependentUpon>CORTES.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CORTES1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
