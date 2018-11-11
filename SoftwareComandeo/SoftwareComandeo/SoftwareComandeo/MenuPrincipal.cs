@@ -22,5 +22,7 @@ namespace SoftwareComandeo
             frmListadoComandas form = new frmListadoComandas();
             form.ShowDialog();
         }
+
+        
     }
 }

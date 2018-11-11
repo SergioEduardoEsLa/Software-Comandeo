@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
             this.btnCerrarSesionMenu = new System.Windows.Forms.Button();
             this.btnCorteDeCaja = new System.Windows.Forms.Button();
             this.btnComanda = new System.Windows.Forms.Button();
@@ -45,6 +46,8 @@
             // btnCorteDeCaja
             // 
             this.btnCorteDeCaja.AutoSize = true;
+            this.btnCorteDeCaja.Image = ((System.Drawing.Image)(resources.GetObject("btnCorteDeCaja.Image")));
+            this.btnCorteDeCaja.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCorteDeCaja.ImageKey = "(ninguno)";
             this.btnCorteDeCaja.Location = new System.Drawing.Point(274, 40);
             this.btnCorteDeCaja.Name = "btnCorteDeCaja";
@@ -57,6 +60,8 @@
             // btnComanda
             // 
             this.btnComanda.AutoSize = true;
+            this.btnComanda.Image = ((System.Drawing.Image)(resources.GetObject("btnComanda.Image")));
+            this.btnComanda.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnComanda.ImageKey = "(ninguno)";
             this.btnComanda.Location = new System.Drawing.Point(12, 40);
             this.btnComanda.Name = "btnComanda";
