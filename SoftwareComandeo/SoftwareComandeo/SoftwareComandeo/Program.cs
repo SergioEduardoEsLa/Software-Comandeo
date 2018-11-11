@@ -16,7 +16,7 @@ namespace SoftwareComandeo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ComandaGeneral());
+            Application.Run(new frmMenuPrincipal());
         }
     }
 }

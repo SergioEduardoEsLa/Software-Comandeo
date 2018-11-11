@@ -23,9 +23,13 @@ namespace SoftwareComandeo
             form.ShowDialog();
         }
 
+<<<<<<< HEAD
         private void frmMenuPrincipal_Load(object sender, EventArgs e)
         {
 
         }
+=======
+        
+>>>>>>> 304a8df6c1189f1b01ab9040793ad325b79b4aa4
     }
 }
