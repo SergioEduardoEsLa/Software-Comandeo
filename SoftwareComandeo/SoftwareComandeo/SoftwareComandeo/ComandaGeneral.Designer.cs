@@ -325,6 +325,7 @@
             this.btnCorte.TabIndex = 0;
             this.btnCorte.Text = "CORTE";
             this.btnCorte.UseVisualStyleBackColor = true;
+            this.btnCorte.Click += new System.EventHandler(this.btnCorte_Click);
             // 
             // btnPeinado
             // 
@@ -335,6 +336,7 @@
             this.btnPeinado.TabIndex = 3;
             this.btnPeinado.Text = "PEINADOS";
             this.btnPeinado.UseVisualStyleBackColor = true;
+            this.btnPeinado.Click += new System.EventHandler(this.btnPeinado_Click);
             // 
             // btnMaquillaje
             // 
@@ -345,6 +347,7 @@
             this.btnMaquillaje.TabIndex = 4;
             this.btnMaquillaje.Text = "MAQUILLAJE";
             this.btnMaquillaje.UseVisualStyleBackColor = true;
+            this.btnMaquillaje.Click += new System.EventHandler(this.btnMaquillaje_Click);
             // 
             // pnlColaborador
             // 
@@ -453,6 +456,7 @@
             // 
             // btnRegresarComanda
             // 
+            this.btnRegresarComanda.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnRegresarComanda.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresarComanda.Location = new System.Drawing.Point(688, 427);
             this.btnRegresarComanda.Name = "btnRegresarComanda";
@@ -460,6 +464,7 @@
             this.btnRegresarComanda.TabIndex = 16;
             this.btnRegresarComanda.Text = "REGRESAR";
             this.btnRegresarComanda.UseVisualStyleBackColor = true;
+            this.btnRegresarComanda.Click += new System.EventHandler(this.btnRegresarComanda_Click);
             // 
             // ComandaGeneral
             // 
@@ -468,6 +473,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
+            this.CancelButton = this.btnRegresarComanda;
             this.ClientSize = new System.Drawing.Size(803, 495);
             this.Controls.Add(this.btnCobrar);
             this.Controls.Add(this.btnBorrarNota);

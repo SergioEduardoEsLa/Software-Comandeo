@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace SoftwareComandeo
 {
-    public partial class frmMenuPrincipal : Form
+    public partial class PEINADOS : Form
     {
-        public frmMenuPrincipal()
+        public PEINADOS()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmListadoComandas form = new frmListadoComandas();
-            form.ShowDialog();
-        }
 
-        private void btnCerrarSesionMenu_Click(object sender, EventArgs e)
-        {
-            frmMenuPrincipal.ActiveForm.Close();
         }
     }
 }

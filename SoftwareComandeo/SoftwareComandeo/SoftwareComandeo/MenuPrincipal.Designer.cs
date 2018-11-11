@@ -43,6 +43,7 @@
             this.btnCerrarSesionMenu.TabIndex = 2;
             this.btnCerrarSesionMenu.Text = "CERRAR SESION";
             this.btnCerrarSesionMenu.UseVisualStyleBackColor = true;
+            this.btnCerrarSesionMenu.Click += new System.EventHandler(this.btnCerrarSesionMenu_Click);
             // 
             // btnCorteDeCaja
             // 

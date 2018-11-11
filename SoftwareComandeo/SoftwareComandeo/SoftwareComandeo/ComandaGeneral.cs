@@ -38,5 +38,28 @@ namespace SoftwareComandeo
             pnlServicios.Visible = false;
             pnlColaborador.Visible = true;
         }
+
+        private void btnCorte_Click(object sender, EventArgs e)
+        {
+            CORTES form = new CORTES();
+            form.ShowDialog();
+        }
+
+        private void btnMaquillaje_Click(object sender, EventArgs e)
+        {
+            MAQUILLAJES form = new MAQUILLAJES();
+            form.ShowDialog();
+        }
+
+        private void btnPeinado_Click(object sender, EventArgs e)
+        {
+            PEINADOS form = new PEINADOS();
+            form.ShowDialog();
+        }
+
+        private void btnRegresarComanda_Click(object sender, EventArgs e)
+        {
+            ComandaGeneral.ActiveForm.Close();
+        }
     }
 }
