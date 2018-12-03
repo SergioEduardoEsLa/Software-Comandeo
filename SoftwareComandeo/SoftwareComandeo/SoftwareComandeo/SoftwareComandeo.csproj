@@ -53,6 +53,11 @@
     <Compile Include="ComandaGeneral.Designer.cs">
       <DependentUpon>ComandaGeneral.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComandaGeneral1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComandaGeneral.resx</DependentUpon>
+    </Compile>
     <Compile Include="CORTES.cs">
       <SubType>Form</SubType>
     </Compile>
